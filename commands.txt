@@ -1,0 +1,10 @@
+cd:- change Directory
+pwd:- print working directory it shows path of the file
+touch filename.format:- Creating new file
+start filename.format:- Opening new file
+cd ..:- Going back to last directory
+ls:- List of the files/folders present in current Directory
+rm:-Romoving/Deleting current file
+rm*:- Removing/Deleting all the files in the directory
+rm -r:-Romoving/Deleting the Directory
+start filename.txt appname:- Opening a file in a specific app

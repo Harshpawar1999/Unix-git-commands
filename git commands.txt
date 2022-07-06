@@ -1,0 +1,25 @@
+1)Create a repo in github.com
+2)Copy code using https
+3)Go to folder where you want to copy the repo
+4)git clone https://path of the repo in github.com
+5)git status :- if the status is red in color and untracked means those files we need to pust to github.com
+6)git add nameOfTheFile.format
+7)git status :- if the color is green and status is changes to be commited. then we need to commit the file
+8)git commit -m "Comment" :- Now all files which we've updated or newly made those are pushed successfully to the github.
+9)git status :- If the git status is nothing to commit working tree clean then evverything is updated.
+10)git log :- whatever changes we made it shows along with the time.
+11)git add . :- it adds the file which we've made changes or updated the file 
+12)git commit -m "Message that we've changed this in this file or updated this in the file":- then everything updated.
+13)git push :- it will upload our files to the github server.
+14git branch <branchName> :- To create a new Branch.
+15)git checkout -b <branchName> :- Creates a new branch and takes you in that branch.
+16)git branch :- To check which branch we're in.
+17)git checkout <branchName> :- To get into the branch we want to go in.
+18)git merge <branchName> :- To merge the changes what we've done in branch to the main.
+19)git branch -d <bSranchName> :- After merging the changes to the main we need to delete the branch to avoid confusion. To delete the current branch.
+20)git push origin <branchName> :- To push the brach which you're in into the remote repo.
+21) Before merging a branch to a main checkout to main always.
+22)git merge <branchName> :- To merge our branch into the main.
+23)After merging push it to remote repo.
+24)git push origin main :- main branch will be pushed to remote repo.
+25)git push --delete origin <branchName> :- Deletes the particular branch of the remote repo.
